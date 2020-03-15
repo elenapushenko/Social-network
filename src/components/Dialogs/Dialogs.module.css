@@ -1,0 +1,41 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialogsItems .active {
+    color: goldenrod;
+}
+
+.dialog {
+
+}
+
+.messages {
+    padding: 10px;
+}
+
+.message:nth-child(2n+1) {
+    text-align: right;
+}
+
+.message {
+
+}
+
+.message img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.dialogsItems img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
